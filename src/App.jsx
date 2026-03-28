@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Banner from "./components/Banner";
 import Cart from "./components/Cart";
@@ -6,13 +7,16 @@ import Models from "./components/Models";
 import NavBar from "./components/Navbar";
 
 const getModels = async () => {
-  const res = fetch("/models.json");
-  return (await res).json();
+  const res = await fetch("/models.json");
+  return res.json();
 };
 
 const modelPromise = getModels();
 
 function App() {
+
+  const [activeTab, setActiveTab] = useState("model");
+  console.log(activeTab)
   return (
     <>
       <NavBar></NavBar>
@@ -25,17 +29,19 @@ function App() {
           className="tab rounded-full w-40"
           aria-label="Models"
           defaultChecked
+          onClick={()=>setActiveTab("model")}
         />
         <input
           type="radio"
           name="my_tabs_1"
           className="tab rounded-full w-40"
           aria-label="Cart"
+          onClick={()=>setActiveTab("cart")}
         />
       </div>
 
-      <Models modelPromise={modelPromise}></Models>
-      <Cart></Cart>
+      {activeTab === "model" && <Models modelPromise={modelPromise}></Models>}
+      {activeTab === "cart" && <Cart></Cart>}
       <Footer></Footer>
     </>
   );
