@@ -1,16 +1,71 @@
-# React + Vite
+<h1 align="center">🤖 AI Model Hub</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00C2FF&center=true&lines=Explore+AI+Tools+Easily;Modern+UI+%26+Fast+Experience;Built+with+React" />
+</p>
 
-Currently, two official plugins are available:
+AI Model Hub is a modern and user-friendly platform where users can explore and discover various AI tools and models in one place. It helps users quickly find popular, favorite, and most wanted AI tools with a clean and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://ai-model-hub-174.netlify.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+
+![AI Model Hub Screenshot]https://your-screenshot-link.com)
+
+---
+
+## 📌 Overview
+
+AI Model Hub provides a centralized platform for discovering AI tools. Users can browse different categories, view details, and explore trending AI products easily.
+
+---
+
+## ⚙️ Technologies Used
+
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## ✨ Features
+
+* 🤖 Browse AI tools and models
+* 🔍 Clean and user-friendly UI
+* 📊 Categorized tools (Popular, Favourite, Most Wanted)
+* 🎨 Smooth UI & hover effects
+* ⚡ Fast and responsive design
+
+---
+
+## 🔗 Relevant Links
+
+* 🌐 Live Site: https://your-live-link.com
+* 💻 GitHub Repo: https://github.com/your-username/ai-model-hub
+
+---
+
+## 💡 Future Improvements
+
+* Search functionality
+* Filter by category
+* Backend integration
+* User authentication
+* API integration for real AI tools
+
+---
+
+## 🙌 Author
+
+**Anik Hossain**
+Frontend Developer
+
+---
+
+⭐ If you like this project, give it a star!
