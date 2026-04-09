@@ -14,12 +14,6 @@ AI Model Hub is a modern and user-friendly platform where users can explore and 
 
 ---
 
-## 📸 Screenshot
-
-![AI Model Hub Screenshot]https://your-screenshot-link.com)
-
----
-
 ## 📌 Overview
 
 AI Model Hub provides a centralized platform for discovering AI tools. Users can browse different categories, view details, and explore trending AI products easily.
